@@ -1,4 +1,5 @@
-# How Android and Linux Systems Are Different
+# KUL-739B :: How Android and Linux Systems Are Different
+
 
 We know that **Android** uses the **Linux kernel**, yet both systems behave very differently—especially when interacting through the command-line interface.
 
