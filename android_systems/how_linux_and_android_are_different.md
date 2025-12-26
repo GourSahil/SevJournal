@@ -1,19 +1,54 @@
-# How Android and Linux Systems are different
-We know that **Android** uses **[Linux Kernel](https://en.wikipedia.org/wiki/Linux_kernel)** but still both of them are much different when we tries using the command line interface.
+# How Android and Linux Systems Are Different
 
-## Basic Changes I found
-1. Filesystems in android are different from GNU Operating Systems (Ubuntu, Debian, etc)
-2. Linux uses **glibc**, **GNU Core Utilities**, ***/etc, /home, /var, /log Layout**, **X11/Wayland display Servers**
-3. Android uses **Bionic Libc**, **Its Own Toolchain**, **/system, /vendor, /data Layout**, **No X11/Wayland**, **Java/Kotlin-first runtime(ART)**
+We know that **Android** uses the **Linux kernel**, yet both systems behave very differently—especially when interacting through the command-line interface.
 
-Basically, A linux applicatino asks for things that simply don't exist on Android.
+This difference exists because Android and traditional GNU/Linux systems are built with **entirely different userland designs**, even though they share the same kernel.
 
-# References
-Android -> [Android_Operating_System](https://en.wikipedia.org/wiki/Android_(operating_system))
-Linux -> [Linux Operating System](https://en.wikipedia.org/wiki/Linux)
+---
 
-# Materials
-- You can download **Android** from **[Here](https://www.android-x86.org/)**.
-- You can download **Linux** from **[Here](https://www.linux.org/pages/download/)**, I choose this website because it shows alomst every linux distribution.
+## Basic Differences Observed
 
-You guys can download the respective operating systems and try running them setup on a **Virtual Machine** and try to find out how they works.
+1. **Filesystem layout** in Android is different from that of GNU/Linux operating systems (such as Ubuntu, Debian, etc.).
+
+2. Traditional Linux systems rely on:
+   - **glibc**
+   - **GNU Core Utilities**
+   - Standard filesystem layout (`/etc`, `/home`, `/var`, `/log`)
+   - **X11 or Wayland** display servers
+
+3. Android, on the other hand, uses:
+   - **Bionic libc**
+   - Its own toolchain
+   - Android-specific layout (`/system`, `/vendor`, `/data`)
+   - No **X11/Wayland** display server
+   - A **Java/Kotlin-first runtime (ART)**
+
+---
+
+## Key Insight
+
+> A Linux application expects components that **simply do not exist** in Android’s environment.
+
+This is why Linux desktop applications cannot directly run on Android systems without compatibility layers or containerized environments.
+
+---
+
+## References
+
+- Android: https://en.wikipedia.org/wiki/Android_(operating_system)  
+- Linux: https://en.wikipedia.org/wiki/Linux  
+
+---
+
+## Materials for Practice
+
+- Download **Android (x86)** from:  
+  https://www.android-x86.org/
+
+- Download **Linux distributions** from:  
+  https://www.linux.org/pages/download/  
+  *(This site conveniently lists most available Linux distributions.)*
+
+---
+
+You can install both operating systems inside a **virtual machine** and explore their filesystems, process models, and command-line behavior to better understand how they differ in practice.
