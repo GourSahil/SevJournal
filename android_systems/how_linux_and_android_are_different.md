@@ -11,3 +11,9 @@ Basically, A linux applicatino asks for things that simply don't exist on Androi
 # References
 Android -> [Android_Operating_System](https://en.wikipedia.org/wiki/Android_(operating_system))
 Linux -> [Linux Operating System](https://en.wikipedia.org/wiki/Linux)
+
+# Materials
+- You can download **Android** from **[Here](https://www.android-x86.org/)**.
+- You can download **Linux** from **[Here](https://www.linux.org/pages/download/)**, I choose this website because it shows alomst every linux distribution.
+
+You guys can download the respective operating systems and try running them setup on a **Virtual Machine** and try to find out how they works.
