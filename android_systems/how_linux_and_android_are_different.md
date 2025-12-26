@@ -70,4 +70,4 @@ This is why Linux desktop applications cannot directly run on Android systems wi
 
 ---
 
-You can install both operating systems inside a **virtual machine** and explore their filesystems, process models, and command-line behavior to better understand how they differ in practice.
+> You can install both operating systems inside a **virtual machine** and explore their filesystems, process models, and command-line behavior to better understand how they differ in practice.
