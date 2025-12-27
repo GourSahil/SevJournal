@@ -19,7 +19,7 @@ This difference exists because Android and traditional GNU/Linux systems are bui
    ![Android Filesystem Image](./images/android_filesystem.png)
    
    ***info**: Filesystem in Android at **/***
-   > If you want to see the filesystem in linux and android, use*ls** to see the files and folders. First go to **root** directory, It is done by using command **cd /**.
+   > If you want to see the filesystem in linux and android, use **ls** to see the files and folders. First go to **root** directory, It is done by using command **cd /**.
 3. Traditional Linux systems rely on:
    - **glibc**
    - **GNU Core Utilities**
